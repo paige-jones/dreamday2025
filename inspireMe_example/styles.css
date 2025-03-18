@@ -8,7 +8,7 @@ Background Styles
 
 body {
     /* Choose your theme and background image */
-    background-image: url('../images/harry_potter/background.png');
+    background-image: url('images/harry_potter/background.png');
 
     /* DO NOT EDIT THE REST */
     margin: 0;
@@ -30,12 +30,12 @@ Font Styles
 /* Choose your font */
 @font-face {
     font-family: 'Main';
-    src: url('../fonts/harry.ttf') format('truetype');
+    src: url('fonts/harry.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Second';
-    src: url('../fonts/harry.ttf') format('opentype');
+    src: url('fonts/harry.ttf') format('opentype');
 }
 
 /* Choose your font color */
