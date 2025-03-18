@@ -1,0 +1,148 @@
+/* 
+-------------------------------------------------------------------------------------------
+
+Background Styles
+
+-------------------------------------------------------------------------------------------
+*/
+
+body {
+    /* Choose your theme and background image */
+    background-image: url('images/harry_potter/background.png');
+
+    /* DO NOT EDIT THE REST */
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+    position: relative;
+    background-size: cover;
+}
+
+
+/* 
+-------------------------------------------------------------------------------------------
+
+Font Styles
+
+-------------------------------------------------------------------------------------------
+*/
+
+/* Choose your font */
+@font-face {
+    font-family: 'Main';
+    src: url('fonts/harry.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Second';
+    src: url('fonts/harry.ttf') format('opentype');
+}
+
+/* Choose your font color */
+.text-color {
+    color: white;
+}
+
+
+/* 
+-------------------------------------------------------------------------------------------
+
+Card Styles
+
+-------------------------------------------------------------------------------------------
+*/
+
+
+.custom-cards {
+    
+    /* Choose your background color for your card */
+    background-color: #222 !important;
+
+    /* Choose the color for your card text*/
+    color: white !important;
+
+    /* DO NOT EDIT THE REST */
+    margin-bottom: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Choose the color for your card title */
+.custom-cards .card-title {
+    color: #ffc107;
+}
+
+/* Choose your card button color */
+.custom-cards .btn-primary {
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+/* Choose your card button hover color */
+.custom-cards .btn-primary:hover {
+    background-color: #ffcd38;
+    border-color: #ffcd38;
+}
+
+
+
+
+
+/*
+
+
+-------------------------------------------------------------------------------------------
+
+
+DO NOT EDIT CONTENT BELOW
+
+
+-------------------------------------------------------------------------------------------
+
+
+*/
+
+
+/* This positions the background image. */
+.background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Make the card body take up remaining space */
+.card-body {
+    flex: 1;
+}
+
+/* Set the height of the image */
+/* Fit the entire image within the container */
+.card-image-top {
+    height: 200px;
+    object-fit: contain;
+}
+
+/* Apply custom wizard font to text */
+.main-font {
+    font-family: 'Main', sans-serif;
+    font-size: 100px;
+}
+.second-font {
+    font-family: 'Second', sans-serif;
+    font-size: 35px;
+}
+
+/* Styles for the home page image */
+.home-image {
+    width: 100%;
+    /* Adjust the width as needed */
+    max-width: 200px;
+}
+
+/* Adds more space between each HTML section */
+.section-margins {
+    margin-top: 150px
+}
