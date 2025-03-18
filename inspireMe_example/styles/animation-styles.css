@@ -1,0 +1,114 @@
+/* 
+
+-------------------------------------------------
+
+DO NOT EDIT
+
+-------------------------------------------------
+
+*/
+
+    
+.floating {  
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }    
+}
+
+
+.upAndDown {
+    animation: upAndDown 5s ease 2s 1 normal forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes upAndDown {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-5px) rotate(-4deg);
+	}
+
+	40% {
+		transform: translateX(5px) rotate(12deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-3deg);
+	}
+}
+
+
+.leftAndRight {
+    animation: leftAndRight 5s ease-in-out 0s infinite normal forwards;
+}
+
+@keyframes leftAndRight {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(-6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(-2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(1.2deg);
+	}
+}
+
+
+
+.smallCircle {
+    animation: smallCircle 1s ease-in 0s infinite normal forwards;
+}
+
+@keyframes smallCircle {
+	0% {
+		transform: translate(0);
+	}
+
+	20% {
+		transform: translate(4px, -4px);
+	}
+
+	40% {
+		transform: translate(4px, 4px);
+	}
+
+	60% {
+		transform: translate(-4px, 4px);
+	}
+
+	80% {
+		transform: translate(-4px, -4px);
+	}
+
+	100% {
+		transform: translate(0);
+	}
+}
