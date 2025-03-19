@@ -30,12 +30,12 @@ Font Styles
 /* Choose your font */
 @font-face {
     font-family: 'Main';
-    src: url('fonts/') format('truetype');
+    src: url('fonts/');
 }
 
 @font-face {
     font-family: 'Second';
-    src: url('fonts/') format('opentype');
+    src: url('fonts/');
 }
 
 /* Choose your font color */
